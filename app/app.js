@@ -6,13 +6,3 @@ http.createServer((req, res) => {
 }).listen(port, () => {
   console.log(Servidor en puerto ${port});
 });
-Y package.json:
-
-{
-  "name": "ci-cd-app",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo 'Tests ejecutados con éxito'"
-  }
-}
